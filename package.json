@@ -1,13 +1,24 @@
 
 {
-  "name": "nodemon",
-  "homepage": "http://nodemon.io",
-  "...": "... other standard package.json values",
-  "nodemonConfig": {
-    "ignore": ["**/test/**", "**/docs/**"],
-    "delay": 2500
+  "name": "folha_de_pagamento",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FuturoDEV-Eco/folha-de-pagamento-matheusfarias94/issues"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FuturoDEV-Eco/folha-de-pagamento-matheusfarias94/issues"
+  },
+  "homepage": "https://github.com/FuturoDEV-Eco/folha-de-pagamento-matheusfarias94#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
-
-
-
