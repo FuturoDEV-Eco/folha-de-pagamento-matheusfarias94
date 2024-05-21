@@ -1,5 +1,4 @@
 
-
 {
   "name": "folha_de_pagamento",
   "version": "1.0.0",
@@ -21,7 +20,9 @@
   "homepage": "https://github.com/FuturoDEV-Eco/folha-de-pagamento-matheusfarias94#readme",
   "devDependencies": {
     "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "pdfkit": "^0.15.0"
   }
 }
-
 

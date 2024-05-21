@@ -1,16 +1,15 @@
 function calcularImpostoRenda(salario) {
   let ir = 0;
-  const base1 = Number(0);
-  const deducao1 = Number(0)
-  const base2 = Number(0.075);
-  const deducao2 = Number(158.4)
-  const base3 = Number(0.15);
-  const deducao3 = Number(370.4)
-  const base4 = Number(0.225);
-  const deducao4 = Number(651.73)
-  const base5 = Number(0.275);
-  const deducao5 = Number(884.96)
-
+  const base1 = 0;
+  const deducao1 = 0;
+  const base2 = 0.075;
+  const deducao2 = 158.4;
+  const base3 = 0.15;
+  const deducao3 = 370.4;
+  const base4 = 0.225;
+  const deducao4 = 651.73;
+  const base5 = 0.275;
+  const deducao5 = 884.96;
 
   if (salario <= 2112) {
     ir = salario * base1 - deducao1;
@@ -23,6 +22,6 @@ function calcularImpostoRenda(salario) {
   } else if (salario >= 4664.68) {
     ir = salario * base5 - deducao5;
   }
-  return ir.toFixed(2);
+  return ir;
 }
 module.exports = calcularImpostoRenda;
